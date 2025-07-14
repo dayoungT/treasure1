@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;700&display=swap');
+
+body {
+    font-family: 'Noto Serif KR', serif;
+    background-image: url('https://www.transparenttextures.com/patterns/old-map.png');
+    background-color: #f2e6d3;
+    color: #4b3a26;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 30px auto;
+    background-color: rgba(250, 245, 235, 0.9);
+    border-radius: 5px;
+    padding: 25px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    border: 3px double #8c7452;
+}
+
+h1 {
+    text-align: center;
+    color: #6b4f2c;
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 1px rgba(255,255,255,0.6);
+}
+
+#counter, #timer, #message {
+    text-align: center;
+    font-size: 1.1em;
+    margin-bottom: 15px;
+    color: #6b4f2c;
+}
+
+#message {
+    font-weight: bold;
+    color: #a0452b;
+}
+
+#clue-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+button.clue-btn {
+    background-color: #d7c1a0;
+    color: #4b3a26;
+    border: 1px solid #a08968;
+    border-radius: 3px;
+    padding: 8px 14px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    box-shadow: inset 0 -2px 2px rgba(0,0,0,0.1);
+}
+
+button.clue-btn.read {
+    background-color: #a08968;
+    color: #f2e6d3;
+}
+
+button.clue-btn:hover {
+    background-color: #c3aa83;
+    color: #fff;
+}
+
+#clue-display {
+    border-top: 2px dashed #8c7452;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 1.2em;
+    color: #4b3a26;
+}
+
+#clue-text {
+    font-weight: bold;
+    line-height: 1.6;
+}
